@@ -1,0 +1,2301 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\EtWorldPainter.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""afxres.rc""         // 표준 구성 요소입니다.\r\n"
+    "#include ""afxprint.rc""       // 인쇄 미리 보기 리소스\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\EtWorldPainter.ico"
+IDR_EtWorldPainterTYPE  ICON                    "res\\EtWorldPainterDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_PANEICON            BITMAP                  "res\\bitmap1.bmp"
+IDB_BRUSHDEF1           BITMAP                  "res\\bmp00001.bmp"
+IDB_BRUSHDEF2           BITMAP                  "res\\brushdef.bmp"
+IDB_BRUSHDEF3           BITMAP                  "res\\bmp00002.bmp"
+IDB_BRUSHDEF4           BITMAP                  "res\\bmp00003.bmp"
+IDB_BRUSHDEF5           BITMAP                  "res\\bmp00004.bmp"
+IDB_BRUSHDEF6           BITMAP                  "res\\bmp00005.bmp"
+IDB_BRUSHDEF7           BITMAP                  "res\\bmp00006.bmp"
+IDB_BRUSHDEF8           BITMAP                  "res\\bmp00007.bmp"
+IDB_ADOBETABITEM        BITMAP                  "res\\AdobeTab.bmp"
+IDR_TEXTURELIST         BITMAP                  "res\\toolbar1.bmp"
+IDR_ACTIONTOOLBAR       BITMAP                  "res\\bmp00008.bmp"
+IDR_SIMULATION          BITMAP                  "res\\bmp00009.bmp"
+IDB_BITMAP2             BITMAP                  "res\\bitmap2.bmp"
+IDR_SKINLIST            BITMAP                  "res\\bmp00010.bmp"
+IDR_PROPPOOL            BITMAP                  "res\\bmp00011.bmp"
+IDR_ENVI_TOOLBAR        BITMAP                  "res\\bmp00012.bmp"
+IDB_ENVIICON            BITMAP                  "res\\bitmap3.bmp"
+IDR_EVENTLIST           BITMAP                  "res\\bmp00013.bmp"
+IDR_SOUNDLIST           BITMAP                  "res\\bmp00014.bmp"
+IDB_SOUNDICON           BITMAP                  "res\\bmp00015.bmp"
+IDB_SOUNDTREEICON       BITMAP                  "res\\bmp00016.bmp"
+IDR_GRASSLIST           BITMAP                  "res\\bmp00017.bmp"
+IDR_ATTRLIST            BITMAP                  "res\\bmp00018.bmp"
+IDB_BITMAP3             BITMAP                  "res\\bitmap4.bmp"
+IDR_SKINLIST2           BITMAP                  "res\\bmp00019.bmp"
+IDB_BITMAP4             BITMAP                  "res\\bmp00020.bmp"
+IDR_WATER_TOOLBAR       BITMAP                  "res\\bmp00021.bmp"
+IDB_EVENTWIZARDIMAGE    BITMAP                  "res\\EventWizardImage.bmp"
+IDB_BITMAP7             BITMAP                  "res\\bitmap7.bmp"
+IDB_BITMAP8             BITMAP                  "res\\bitmap8.bmp"
+IDB_BITMAP9             BITMAP                  "res\\bitmap9.bmp"
+IDB_PROPWIZARDIMAGE     BITMAP                  "res\\PropPropertyImage.bmp"
+IDB_BITMAP10            BITMAP                  "res\\MapTool01.bmp"
+IDR_RELOAD              BITMAP                  "res\\bmp00022.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_PROJECT_SAVE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_TEXTURELIST TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_TEXTUREADD
+    BUTTON      ID_TEXTUREREMOVE
+    SEPARATOR
+    BUTTON      ID_TEXTUREREFRESH
+    SEPARATOR
+    BUTTON      ID_TEXTUREPREVIEW
+    BUTTON      ID_TEXTURESIZE
+END
+
+IDR_ACTIONTOOLBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_UNDO
+    BUTTON      ID_REDO
+END
+
+IDR_SIMULATION TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_SIMUL_RUN
+    BUTTON      ID_SIMUL_STOP
+END
+
+IDR_SKINLIST TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_SKINADD
+    BUTTON      ID_SKINREMOVE
+    SEPARATOR
+    BUTTON      ID_SKINREFRESH
+    BUTTON      ID_SKINPREVIEW
+    BUTTON      ID_SKINMODE
+    BUTTON      ID_SKINSIZE
+END
+
+IDR_PROPPOOL TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_POOL_EMPTY
+    SEPARATOR
+    BUTTON      ID_POOL_SAVE
+    SEPARATOR
+    BUTTON      ID_POOL_LOADLIST
+END
+
+IDR_ENVI_TOOLBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_ENVI_NEW
+    BUTTON      ID_ENVI_SAVEAS
+    BUTTON      ID_ENVI_DELETE
+    SEPARATOR
+    BUTTON      ID_ENVI_RELOAD
+    BUTTON      ID_ENVI_LOADLIST
+    SEPARATOR
+    BUTTON      ID_ENVI_BAKELIGHTMAP
+END
+
+IDR_EVENTLIST TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_EVENT_LIST
+END
+
+IDR_SOUNDLIST TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_SOUNDADD
+    BUTTON      ID_SOUNDREMOVE
+    SEPARATOR
+    BUTTON      ID_SOUNDREFRESH
+    BUTTON      ID_SOUNDMODE
+END
+
+IDR_GRASSLIST TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_GRASS_1
+    BUTTON      ID_GRASS_2
+    BUTTON      ID_GRASS_3
+    BUTTON      ID_GRASS_4
+    SEPARATOR
+    BUTTON      ID_RELOAD
+END
+
+IDR_ATTRLIST TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_ATTR_1
+    BUTTON      ID_ATTR_2
+    BUTTON      ID_ATTR_3
+    BUTTON      ID_ATTR_4
+    SEPARATOR
+    BUTTON      ID_ATTR_MAKENAVI
+    BUTTON      ID_ATTR_GEN_ATT4
+END
+
+IDR_SKINLIST2 TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_SKINNAME
+END
+
+IDR_WATER_TOOLBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_BAKEWATERALPHA
+END
+
+IDR_RELOAD TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_RELOAD
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "Project(&P)"
+    BEGIN
+        MENUITEM "Connect Project(&C)\tCtrl+C", ID_PROJECT_CONNECT
+        MENUITEM "Disconnect Project(&D)\tCtrl+D", ID_PROJECT_DISCONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "Save Project(&S)\tCtrl+S",    ID_PROJECT_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "Setting(&P)...\tCtrl+P",      ID_PROJECT_SETTING
+        MENUITEM SEPARATOR
+        MENUITEM "최근에 사용한 파일",                  ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    POPUP "View(&V)"
+    BEGIN
+        MENUITEM "도구 모음(&T)",                   ID_VIEW_TOOLBAR
+        MENUITEM "상태 표시줄(&S)",                  ID_VIEW_STATUS_BAR
+        POPUP "Tool Window"
+        BEGIN
+            MENUITEM "Tile Manager",                ID_TOOLWINDOW_TILEMANAGER
+            MENUITEM "Skin Manager",                ID_TOOLWINDOW_SKINMANAGER
+            MENUITEM "Filter Manager",              ID_TOOLWINDOW_FILTERMANAGER
+            MENUITEM "Light Control",               ID_TOOLWINDOW_LIGHTMANAGER
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Toggle TopView",              ID_VIEW_TOGGLETOPVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Camera/Light Toggle",         ID_VIEW_CAMERA_LIGHT
+    END
+    POPUP "Tools(&T)"
+    BEGIN
+        MENUITEM "Make Minimap",                ID_TOOLS_MAKEMINIMAP
+        MENUITEM "Save Current Lightmap",       ID_TOOLS_SAVELIGHTMAP
+        MENUITEM SEPARATOR
+        MENUITEM "Export Terrain to 3ds max script data", ID_TOOLS_EXPORTTERRAINTO3DSMAXSCRIPTDATA
+        MENUITEM "Export Prop Info to 3ds max script data", ID_TOOLS_EXPORTPROPINFOTO3DSMAXSCRIPTDATA
+    END
+    POPUP "Simulation(&S)"
+    BEGIN
+        MENUITEM "Run",                         ID_SIMUL_RUN, CHECKED
+        MENUITEM "Stop",                        ID_SIMUL_STOP, CHECKED
+    END
+    POPUP "Properties(&C)"
+    BEGIN
+        POPUP "Grid Setting"
+        BEGIN
+            MENUITEM "Create Grid",                 ID_GRID_CREATEGRID
+            MENUITEM "Delete Grid",                 ID_GRID_DELETEGRID
+            MENUITEM "Move Grid",                   ID_GRID_MOVEGRID
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Event Setting",               ID_PROPERTIES_EVENTSETTING
+        MENUITEM "Prop Property Setting",       ID_PROPERTIES_PROPPROPERTYSETTING
+        MENUITEM SEPARATOR
+        MENUITEM "Directory Setting",           ID_PROPERTIES_DIRECTORYSETTING
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "About EtWorldPainter(&A)...", ID_APP_ABOUT
+    END
+END
+
+IDR_CONTEXTMENU MENU 
+BEGIN
+    POPUP "Grid Context"
+    BEGIN
+        MENUITEM "CheckOut",                    ID_GRIDCONTEXT_CHECKOUT
+        MENUITEM "CheckIn",                     ID_GRIDCONTEXT_CHECKIN
+        MENUITEM SEPARATOR
+        MENUITEM "Create Empty Sector",         ID_GRIDCONTEXT_CREATEEMPTYSECTOR
+        MENUITEM "Empty Sector",                ID_GRIDCONTEXT_EMPTYSECTOR
+    END
+    POPUP "Manager Explorer"
+    BEGIN
+        MENUITEM "Create Folder",               ID_MANAGEREXPLORER_CREATEFOLDER
+        MENUITEM "Delete Folder",               ID_MANAGEREXPLORER_DELETEFOLDER
+    END
+    POPUP "Layer Height"
+    BEGIN
+        MENUITEM "Import Texture",              ID_LAYERHEIGHT_IMPORTTEXTURE
+        MENUITEM "Export Texture",              ID_LAYERHEIGHT_EXPORTTEXTURE
+    END
+    POPUP "Envi Light"
+    BEGIN
+        MENUITEM "Add Direction Light",         ID_ENVILIGHT_ADDDIRECTIONLIGHT
+        MENUITEM "Add Point Light",             ID_ENVILIGHT_ADDPOINTLIGHT
+        MENUITEM "Add Spot Light",              ID_ENVILIGHT_ADDSPOTLIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "Remove Light",                ID_ENVILIGHT_REMOVELIGHT
+    END
+    POPUP "SkinManager"
+    BEGIN
+        MENUITEM "Open to EtViewer",            ID_SKINMANAGER_OPENTOETVIEWER
+        MENUITEM "Open to EtActionTool",        ID_SKINMANAGER_OPENTOETACTIONTOOL
+    END
+    POPUP "Trigger List"
+    BEGIN
+        MENUITEM "Cut",                         ID_TRIGGERLIST_CUT
+        MENUITEM "Copy",                        ID_TRIGGERLIST_COPY
+        MENUITEM "Paste",                       ID_TRIGGERLIST_PASTE
+        MENUITEM "Delete",                      ID_TRIGGERLIST_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Add Category",                ID_TRIGGERLIST_ADDCATEGORY
+        MENUITEM "Add Trigger",                 ID_TRIGGERLIST_ADDTRIGGER
+    END
+    POPUP "Trigger Properties"
+    BEGIN
+        MENUITEM "Cut",                         ID_TRIGGERPROPERTIES_CUT
+        MENUITEM "Copy",                        ID_TRIGGERPROPERTIES_COPY
+        MENUITEM "Paste",                       ID_TRIGGERPROPERTIES_PASTE
+        MENUITEM "Delete",                      ID_TRIGGERPROPERTIES_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Add Event",                   ID_TRIGGERPROPERTIES_ADDEVENT
+        MENUITEM "Add Condition",               ID_TRIGGERPROPERTIES_ADDCONDITION
+        MENUITEM "Add Action",                  ID_TRIGGERPROPERTIES_ADDACTION
+        MENUITEM SEPARATOR
+        POPUP "Add Operator"
+        BEGIN
+            MENUITEM "OR",                          ID_ADDOPERATOR_OR
+            MENUITEM "Random",                      ID_ADDOPERATOR_RANDOM
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Properties",                  ID_TRIGGERPROPERTIES_PROPERTIES
+    END
+    POPUP "Trigger Value Define"
+    BEGIN
+        MENUITEM "Add Value",                   ID_TRIGGERVALUEDEFINE_ADDVALUE
+        MENUITEM "Modify Value",                ID_TRIGGERVALUEDEFINE_MODIFYVALUE
+        MENUITEM SEPARATOR
+        MENUITEM "Delete Value",                ID_TRIGGERVALUEDEFINE_DELETEVALUE
+    END
+    POPUP "Profile Edit"
+    BEGIN
+        MENUITEM "Add Nation",                  ID_PROFILEEDIT_ADDNATION
+        MENUITEM "Modify Nation",               ID_PROFILEEDIT_MODIFYNATION
+        MENUITEM SEPARATOR
+        MENUITEM "Remove Nation",               ID_PROFILEEDIT_REMOVENATION
+    END
+END
+
+IDR_TEMP MENU 
+BEGIN
+    POPUP "Texture"
+    BEGIN
+        MENUITEM "ID_TEXTUREADD",               ID_TEXTUREADD
+        MENUITEM "ID_TEXTUREREMOVE",            ID_TEXTUREREMOVE
+        MENUITEM "ID_TEXTUREREFRESH",           ID_TEXTUREREFRESH
+        MENUITEM "ID_TEXTUREPREVIEW",           ID_TEXTUREPREVIEW
+        MENUITEM "ID_TEXTURESIZE",              ID_TEXTURESIZE
+    END
+    MENUITEM "Skin",                        ID_SKIN
+    POPUP "Pool"
+    BEGIN
+        MENUITEM "Empty",                       ID_POOL_EMPTY
+        MENUITEM "Save",                        ID_POOL_SAVE
+        MENUITEM "LoadList",                    ID_POOL_LOADLIST
+    END
+    POPUP "Envi"
+    BEGIN
+        MENUITEM "New",                         ID_ENVI_NEW
+        MENUITEM "SaveAs",                      ID_ENVI_SAVEAS
+        MENUITEM "LoadList",                    ID_ENVI_LOADLIST
+        MENUITEM "BakeLightmap",                ID_ENVI_BAKELIGHTMAP
+        MENUITEM "Reload",                      ID_ENVI_RELOAD
+    END
+    POPUP "EventList"
+    BEGIN
+        MENUITEM "Event List",                  ID_EVENT_LIST
+    END
+    POPUP "Grass"
+    BEGIN
+        MENUITEM "1",                           ID_GRASS_1
+        MENUITEM "2",                           ID_GRASS_2
+        MENUITEM "3",                           ID_GRASS_3
+        MENUITEM "4",                           ID_GRASS_4
+        MENUITEM "Reload",                      ID_RELOAD
+    END
+    POPUP "Attribute"
+    BEGIN
+        MENUITEM "1",                           ID_ATTR_1
+        MENUITEM "2",                           ID_ATTR_2
+        MENUITEM "3",                           ID_ATTR_3
+        MENUITEM "4",                           ID_ATTR_4
+    END
+    POPUP "Water"
+    BEGIN
+        MENUITEM "BakeWaterAlpha",              ID_BAKEWATERALPHA
+    END
+    POPUP "Layer"
+    BEGIN
+        MENUITEM "ID_RELOAD",                   ID_RELOAD
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "]",            ID_ADDBRUSHSIZE,        ASCII,  NOINVERT
+    "1",            ID_ATTR_1,              ASCII,  ALT, NOINVERT
+    "2",            ID_ATTR_2,              ASCII,  ALT, NOINVERT
+    "3",            ID_ATTR_3,              ASCII,  ALT, NOINVERT
+    "4",            ID_ATTR_4,              ASCII,  ALT, NOINVERT
+    "1",            ID_DK_BRUSHVIEW_1,      ASCII,  ALT, NOINVERT
+    "2",            ID_DK_BRUSHVIEW_2,      ASCII,  ALT, NOINVERT
+    "3",            ID_DK_BRUSHVIEW_3,      ASCII,  ALT, NOINVERT
+    "4",            ID_DK_BRUSHVIEW_4,      ASCII,  ALT, NOINVERT
+    "5",            ID_DK_BRUSHVIEW_5,      ASCII,  ALT, NOINVERT
+    "6",            ID_DK_BRUSHVIEW_D,      ASCII,  ALT, NOINVERT
+    "`",            ID_DK_BRUSHVIEW_H,      ASCII,  ALT, NOINVERT
+    "[",            ID_MINUSBRUSHSIZE,      ASCII,  NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "S",            ID_PROJECT_SAVE,        VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_REDOACCEL,           VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_TOGGLESIMUL,         VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "Z",            ID_UNDOACCEL,           VIRTKEY, CONTROL, NOINVERT
+    "/",            ID_VIEW_TOGGLETOPVIEW,  ASCII,  NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "EtWorldPainter 정보"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "EtWorldPainter 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007 EyedentityGames All right reserved",IDC_STATIC,40,25,179,8
+    DEFPUSHBUTTON   "확인",IDOK,182,7,46,13,WS_GROUP
+END
+
+IDD_BRUSHPANEVIEW DIALOGEX 0, 0, 116, 202
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_BUTTON1,9,3,23,21,WS_GROUP
+    PUSHBUTTON      "",IDC_BUTTON2,34,3,23,21,NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON3,58,3,23,21,NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON4,82,3,23,21,NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON5,9,30,23,21
+    PUSHBUTTON      "",IDC_BUTTON6,34,30,23,21
+    PUSHBUTTON      "",IDC_BUTTON7,58,30,23,21
+    PUSHBUTTON      "",IDC_BUTTON8,82,30,23,21
+    LTEXT           "Radian",IDC_RADIAN,4,142,107,23,WS_TABSTOP
+    LTEXT           "Hardness",IDC_HARDNESS,4,83,107,23,WS_TABSTOP
+    LTEXT           "Diameter",IDC_DIAMETER,4,54,107,23,WS_TABSTOP
+    LTEXT           "Height",IDC_HEIGHT,4,172,107,23,WS_TABSTOP
+    LTEXT           "Strong",IDC_STRONG,4,112,108,23,WS_TABSTOP
+    CONTROL         "-----------------------------------",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | WS_GROUP,10,23,92,8
+END
+
+IDD_RENDERVIEW DIALOGEX 0, 0, 30, 26
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_LAYERPANEVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_LAYERPREVVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_CONNECT_SETTING DIALOGEX 0, 0, 256, 266
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Connect Setting"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "Use Network Access Control",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,7,7,134,8
+    CONTROL         "Use Visual SourceSafe Control",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,7,95,134,8
+    CONTROL         "Create New Empty Project",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,225,105,8
+    COMBOBOX        IDC_COMBO1,15,38,192,60,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Setting",IDC_BUTTON10,210,38,35,13
+    EDITTEXT        IDC_EDIT4,16,67,191,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,15,127,189,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse..",IDC_BUTTON2,207,127,35,13
+    EDITTEXT        IDC_EDIT6,15,161,189,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse..",IDC_BUTTON9,207,161,35,13
+    EDITTEXT        IDC_EDIT8,57,182,184,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,57,196,184,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,7,15,242,72
+    DEFPUSHBUTTON   "확인",IDOK,145,246,50,14
+    PUSHBUTTON      "취소",IDCANCEL,199,246,50,14
+    LTEXT           "User Name",IDC_STATIC,15,56,76,10
+    GROUPBOX        "",IDC_STATIC,7,104,242,113
+    LTEXT           "VSS Location",IDC_STATIC,15,115,44,8
+    LTEXT           "Local Location",IDC_STATIC,16,149,51,8
+    LTEXT           "User Name",IDC_STATIC,16,184,38,8
+    LTEXT           "Password",IDC_STATIC,16,198,38,8
+    LTEXT           "Select Profile",IDC_STATIC,16,25,76,10
+END
+
+IDD_ADMIN DIALOGEX 0, 0, 300, 54
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create New Project"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,193,35,46,12
+    PUSHBUTTON      "Cancel",IDCANCEL,247,35,46,12
+    LTEXT           "Location",IDC_STATIC,7,9,32,8
+    EDITTEXT        IDC_EDIT1,38,8,240,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,279,8,14,12
+END
+
+IDD_GRIDINFOPANEVIEW DIALOGEX 0, 0, 23, 21
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_LOGINLISTPANEVIEW DIALOGEX 0, 0, 72, 92
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_TABSTOP,0,0,71,74
+END
+
+IDD_DUMMYVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "MS Sans Serif, 굴림", 0, 0, 0x0
+BEGIN
+END
+
+IDD_BRUSHRENDERVIEW DIALOGEX 0, 0, 34, 32
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_CAMERAPANEVIEW DIALOGEX 0, 0, 121, 136
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "Near",IDC_SLIDER_NEAR,7,7,107,20
+    LTEXT           "Far",IDC_SLIDER_FAR,7,30,107,20
+    LTEXT           "FOV",IDC_SLIDER_FOV,7,55,107,20
+    LTEXT           "Move Speed",IDC_SLIDER_CAMSPEED,7,76,107,20
+END
+
+IDD_LAYERHEIGHTVIEW DIALOGEX 0, 0, 109, 110
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CTEXT           "",IDC_STATIC_PREV,3,20,103,87,SS_CENTERIMAGE | SS_SUNKEN | NOT WS_VISIBLE
+END
+
+IDD_SECTORINFOPANEVIEW DIALOGEX 0, 0, 89, 97
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_BLOCKGROUPPANEVIEW DIALOGEX 0, 0, 59, 53
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_TILEMANAGERPANEVIEW DIALOGEX 0, 0, 5, 5
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_RANDOMDUNGEONRENDERVIEW DIALOGEX 0, 0, 31, 29
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_RANDOMDUNGEONDEFAULTPANEVIEW DIALOGEX 0, 0, 27, 23
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_PROPRENDERVIEW DIALOGEX 0, 0, 12, 13
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_MANAGEREXPLORERPANEVIEW DIALOGEX 0, 0, 6, 6
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | TVS_SHOWSELALWAYS | WS_TABSTOP,0,0,6,6
+END
+
+IDD_SKINMANAGERPANEVIEW DIALOGEX 0, 0, 30, 29
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_FILTERPANEVIEW DIALOGEX 0, 0, 137, 88
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_IMAGEPREVDLG DIALOGEX 0, 0, 360, 120
+STYLE DS_SETFONT | DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        " Preview ",IDC_STATIC_PREV,7,21,92,94
+    PUSHBUTTON      "C",IDC_BUTTON2,7,3,17,14,WS_GROUP
+    PUSHBUTTON      "G",IDC_BUTTON9,46,3,17,14
+    PUSHBUTTON      "B",IDC_BUTTON10,64,3,17,14
+    PUSHBUTTON      "R",IDC_BUTTON3,28,3,17,14
+    PUSHBUTTON      "A",IDC_BUTTON11,82,3,17,14,WS_GROUP
+    GROUPBOX        " Channel Import Type ",IDC_STATIC,108,4,136,114
+    CONTROL         "8 Bit - Red Channel",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,113,17,85,10
+    CONTROL         "8 Bit - Green Channel",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,113,26,85,10
+    CONTROL         "8 Bit - Blue Channel",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,113,35,85,10
+    CONTROL         "8 Bit - Alpha Channel",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,113,44,85,10
+    CONTROL         "16 Bit - R(Hight)+G(Low) Channel",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,113,55,120,10
+    CONTROL         "16 Bit - G(Hight)+B(Low) Channel",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,113,63,120,10
+    CONTROL         "16 Bit - R(Hight)+B(Low) Channel",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,113,71,120,10
+    CONTROL         "Swap Channel",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,126,81,72,8
+    GROUPBOX        " Ground Offset ",IDC_STATIC,251,4,91,111
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_VERT | WS_DISABLED | WS_TABSTOP,259,24,13,72
+    CONTROL         "",IDC_SLIDER2,"msctls_trackbar32",TBS_VERT | WS_TABSTOP,287,24,13,72
+    CONTROL         "",IDC_SLIDER3,"msctls_trackbar32",TBS_VERT | WS_TABSTOP,313,24,13,72
+    LTEXT           "Center",IDC_STATIC,254,16,23,8,WS_DISABLED
+    LTEXT           "Max",IDC_STATIC,287,16,16,8
+    LTEXT           "Min",IDC_STATIC,312,16,16,8
+    EDITTEXT        IDC_EDIT2,253,97,26,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT3,280,97,26,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,306,97,26,12,ES_AUTOHSCROLL
+    CONTROL         "16 Bit - Red Channel",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,113,91,120,10
+    CONTROL         "16 Bit - Green Channel",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON,113,99,120,10
+    CONTROL         "16 Bit - Blue Channel",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON,113,107,120,10
+END
+
+IDD_TEXTUREPREV_DLG DIALOGEX 0, 0, 225, 118
+STYLE DS_SETFONT | DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        " Preview ",IDC_STATIC_PREV,30,1,128,115
+    PUSHBUTTON      "C",IDC_BUTTON2,7,3,17,14,WS_GROUP
+    PUSHBUTTON      "G",IDC_BUTTON9,7,41,17,14
+    PUSHBUTTON      "B",IDC_BUTTON10,7,56,17,14
+    PUSHBUTTON      "R",IDC_BUTTON3,7,26,17,14
+    PUSHBUTTON      "A",IDC_BUTTON11,7,71,17,14,WS_GROUP
+END
+
+IDD_PORPPOOLPANEVIEW DIALOGEX 0, 0, 23, 30
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_PROPPOOLVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_PROPPOOLPROPERTIESVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_PROPPROPERTIESPANEVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_CREATEGRID DIALOGEX 0, 0, 185, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Grid"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,79,111,45,12
+    PUSHBUTTON      "Cancel",IDCANCEL,133,111,45,12
+    GROUPBOX        " Grid Infomation ",IDC_STATIC,7,7,171,97
+    LTEXT           "Count :",IDC_STATIC,19,56,26,8
+    EDITTEXT        IDC_EDIT1,46,55,40,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT4,97,55,41,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    LTEXT           "x",IDC_STATIC,89,57,8,8
+    LTEXT           "Area :",IDC_STATIC,19,72,26,8
+    EDITTEXT        IDC_EDIT5,46,70,41,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT6,97,70,41,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    LTEXT           "x",IDC_STATIC,89,72,8,8
+    LTEXT           "/ meter",IDC_STATIC,141,73,28,8
+    LTEXT           "/ count",IDC_STATIC,141,57,28,8
+    LTEXT           "Select Parent ",IDC_STATIC,17,23,48,8
+    COMBOBOX        IDC_COMBO1,65,21,101,118,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Name :",IDC_STATIC,18,40,24,8
+    EDITTEXT        IDC_EDIT2,46,38,120,12,ES_AUTOHSCROLL
+    LTEXT           "TileSize :",IDC_STATIC,18,88,30,8
+    EDITTEXT        IDC_EDIT8,97,86,41,12,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    LTEXT           "/ cm",IDC_STATIC,141,88,28,8
+END
+
+IDD_DELETEGRID DIALOGEX 0, 0, 186, 62
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Delete Grid"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,83,42,45,12
+    PUSHBUTTON      "Cancel",IDCANCEL,134,42,45,12
+    LTEXT           "Select Grid",IDC_STATIC,7,16,48,8
+    COMBOBOX        IDC_COMBO1,50,15,129,118,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SKINPREVDLG DIALOGEX 0, 0, 225, 118
+STYLE DS_SETFONT | DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        " Preview ",IDC_STATIC_PREV,7,1,128,115
+END
+
+IDD_ENVIPANEVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_CREATEENVIDLG DIALOGEX 0, 0, 196, 70
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Environment"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,93,49,45,13
+    PUSHBUTTON      "Cancel",IDCANCEL,143,49,45,13
+    LTEXT           "Name",IDC_STATIC,15,10,24,8
+    EDITTEXT        IDC_EDIT1,48,8,139,12,ES_AUTOHSCROLL
+    LTEXT           "Copy To",IDC_STATIC,13,28,32,8
+    COMBOBOX        IDC_COMBO1,48,26,141,92,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ENVIBASEPANEVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_ENVILIGHTPANEVIEW DIALOGEX 0, 0, 6, 6
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_TABSTOP,0,0,6,6
+END
+
+IDD_EVENTRENDERVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_EVENTAREAPANEVIEW DIALOGEX 0, 0, 27, 22
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_EDITLABELS | LVS_ALIGNLEFT | WS_TABSTOP,0,0,27,22
+END
+
+IDD_EVENTPROPERTIESPANEVIEW DIALOGEX 0, 0, 14, 16
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_SOUNDRENDERVIEW DIALOGEX 0, 0, 8, 10
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+END
+
+IDD_SOUNDMANAGERPANEVIEW DIALOGEX 0, 0, 5, 5
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_SOUNDPREVDLG DIALOGEX 0, 0, 235, 90
+STYLE DS_SETFONT | DS_3DLOOK | DS_CONTROL | WS_CHILD | WS_CLIPSIBLINGS | WS_SYSMENU
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        " File Info ",IDC_STATIC_PREV,4,4,189,82
+    PUSHBUTTON      "Play",IDC_PLAYBUTTON,199,7,29,14
+END
+
+IDD_SOUNDLISTPANEVIEW DIALOGEX 0, 0, 77, 59
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | TVS_SHOWSELALWAYS | WS_TABSTOP,7,7,63,45
+END
+
+IDD_SOUNDPROPERTYPANEVIEW DIALOGEX 0, 0, 94, 82
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_PROPERTIESDLG DIALOGEX 0, 0, 295, 206
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Properties"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,188,187,47,12
+    PUSHBUTTON      "Cancel",IDCANCEL,241,187,47,12
+    GROUPBOX        " Shader Directory ",IDC_STATIC,7,20,281,43
+    EDITTEXT        IDC_EDIT1,20,38,237,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,259,38,19,11
+    GROUPBOX        " EtViewer Location ",IDC_STATIC,7,84,281,43
+    EDITTEXT        IDC_EDIT5,20,102,237,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON9,259,102,19,11
+    LTEXT           " Required Setting",IDC_STATIC,7,7,281,11,SS_SUNKEN
+    LTEXT           " Additional Setting",IDC_STATIC,7,70,281,11,SS_SUNKEN
+    GROUPBOX        " EtActionTool Location ",IDC_STATIC,7,134,281,43
+    EDITTEXT        IDC_EDIT6,20,152,237,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON10,259,152,19,11
+END
+
+IDD_LAYERGRASSVIEW DIALOGEX 0, 0, 8, 10
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+END
+
+IDD_NAVIRENDERVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_NAVIPROPERTYPANEVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_RENDEROPTIONPANEVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_TRIGGERRENDERVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_PROPLISTPANEVIEW DIALOGEX 0, 0, 26, 70
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_TABSTOP,7,7,12,55
+END
+
+IDD_TRIGGERPANEVIEW DIALOGEX 0, 0, 7, 7
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | TVS_SHOWSELALWAYS | WS_TABSTOP,1,1,6,6
+END
+
+IDD_TRIGGERPROPERTIESPANEVIEW DIALOGEX 0, 0, 6, 13
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_RICHEDIT21,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_TABSTOP,0,0,6,6,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,0,7,6,6
+END
+
+IDD_TRIGGERSELECT DIALOGEX 0, 0, 360, 249
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Select Script"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Select Default Script",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,62,79,11
+    COMBOBOX        IDC_COMBO1,40,74,304,240,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Custom Script",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,94,79,8
+    CONTROL         "",IDC_RICHEDIT21,"RichEdit20A",ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,13,106,333,111
+    DEFPUSHBUTTON   "OK",IDOK,257,230,45,12
+    PUSHBUTTON      "Cancel",IDCANCEL,308,230,45,12
+    GROUPBOX        "Parameter",IDC_STATIC1,7,7,346,37
+    LTEXT           "Description",IDC_DESC_STATIC,17,25,322,8
+    GROUPBOX        "",IDC_STATIC2,7,53,346,168
+END
+
+IDD_PARAMINPUTDLG DIALOGEX 0, 0, 88, 14
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+END
+
+IDD_MOVEGRIDDLG DIALOGEX 0, 0, 186, 98
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Move Grid"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,82,80,45,12
+    PUSHBUTTON      "Cancel",IDCANCEL,134,80,45,12
+    LTEXT           "Current Parent",IDC_STATIC,7,39,50,8
+    COMBOBOX        IDC_COMBO1,63,38,116,12,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Move To",IDC_STATIC,7,56,45,8
+    COMBOBOX        IDC_COMBO2,63,54,116,102,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Select Grid Name",IDC_STATIC,7,14,58,8
+    COMBOBOX        IDC_COMBO3,63,12,116,102,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_TRIGGERATTRIBUTEPANEVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+END
+
+IDD_MAKEMINIMAP DIALOGEX 0, 0, 203, 154
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Make Minimap"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,98,134,46,13
+    PUSHBUTTON      "Cancel",IDCANCEL,150,134,46,13
+    GROUPBOX        " Options ",IDC_STATIC,7,7,189,116
+    COMBOBOX        IDC_COMBO1,78,27,44,85,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Resolition",IDC_STATIC,18,28,37,8
+    CONTROL         "Render Terrain",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,16,49,122,10
+    CONTROL         "Render Prop",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,16,64,122,10
+    LTEXT           "Apply Environment",IDC_STATIC,18,100,66,8
+    COMBOBOX        IDC_COMBO2,84,98,100,85,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO3,137,27,44,85,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "x",IDC_STATIC,127,29,8,8
+    CONTROL         "Attribute Alpha",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,16,80,122,10
+END
+
+IDD_WATERRENDERVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_WATERPANEVIEW DIALOGEX 0, 0, 6, 6
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | TVS_SHOWSELALWAYS | WS_TABSTOP,0,0,6,6
+END
+
+IDD_WATERPROPPANEVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_CREATEEVENTDLG DIALOGEX 0, 0, 483, 247
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "EventArea Wizard"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "Next >",IDC_NEXT,346,227,65,13
+    PUSHBUTTON      "Cancel",IDOK,430,227,50,13
+    PUSHBUTTON      "< Back",IDC_BACK,276,227,65,13
+    GROUPBOX        "",IDC_STATIC,0,219,483,25
+    CONTROL         216,IDC_STATIC,"Static",SS_BITMAP,0,0,124,220
+END
+
+IDD_EVENTEDIT_SELEDITTYPE DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        " EventArea ",IDC_STATIC,18,22,307,81
+    CONTROL         "Create New Event Area",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,37,43,209,10
+    CONTROL         "Modify Event Area",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,37,58,209,10
+    CONTROL         "Delete Event Area",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,37,74,209,10
+    GROUPBOX        " EventArea Parameter ",IDC_STATIC,18,112,307,81
+    CONTROL         "Create New Event Area Parameter",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,37,134,209,10
+    CONTROL         "Modify Event Area Parameter",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,37,149,209,10
+    CONTROL         "Delete Event Area Parameter",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,37,165,209,10
+END
+
+IDD_EVENTEDIT_CREATEMODIFY_EVENT DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        " Common Variable ",IDC_STATIC,15,12,316,70
+    LTEXT           "Control Name",IDC_STATIC,31,30,49,9
+    EDITTEXT        IDC_EDIT1,85,28,229,12,ES_AUTOHSCROLL
+    LTEXT           "Background",IDC_STATIC,73,48,42,8
+    PUSHBUTTON      "Color",IDC_BUTTON1,127,48,47,11
+    GROUPBOX        " Preview ",IDC_STATIC,16,88,225,107
+    LTEXT           "Side",IDC_STATIC,204,49,36,8
+    PUSHBUTTON      "Color",IDC_BUTTON2,244,48,47,11
+    LTEXT           "Background",IDC_STATIC,73,63,42,8
+    PUSHBUTTON      "Color",IDC_BUTTON9,127,63,47,11
+    LTEXT           "Side",IDC_STATIC,204,64,36,8
+    PUSHBUTTON      "Color",IDC_BUTTON10,244,63,47,11
+    LTEXT           "Normal :",IDC_STATIC,27,48,36,8
+    LTEXT           "Select :",IDC_STATIC,27,63,36,8
+END
+
+IDD_EVENTEDIT_SELECTEVENT DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,14,319,195
+END
+
+IDD_EVENTEDIT_FINISH DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Export Event Control Header",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,21,121,8
+    LTEXT           "Location",IDC_STATIC,38,41,30,9
+    EDITTEXT        IDC_EDIT1,74,40,225,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,302,40,21,12
+END
+
+IDD_EVENTEDIT_SELECTPARAMETER DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,14,319,195
+END
+
+IDD_EVENTEDIT_CREATEMODIFY_PARAMETER DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    GROUPBOX        " Common Variable ",IDC_STATIC,7,7,285,62
+    LTEXT           "Parameter Name",IDC_STATIC,21,21,57,8
+    LTEXT           "Description",IDC_STATIC,22,36,55,8
+    LTEXT           "Value Type",IDC_STATIC,22,52,56,8
+    EDITTEXT        IDC_EDIT1,81,19,202,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,81,35,202,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,81,50,116,120,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        " Additional Variable ",IDC_STATIC_ADDITIONAL,7,71,286,43
+    LTEXT           "Data :",IDC_STATIC_DATA,20,88,23,8
+    EDITTEXT        IDC_EDIT2,41,87,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,137,87,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,43,87,231,12,ES_AUTOHSCROLL
+    LTEXT           "Min :",IDC_STATIC_MIN,18,88,20,9
+    LTEXT           "Max :",IDC_STATIC_MAX,112,89,23,8
+    GROUPBOX        " Preview ",IDC_STATIC_PREVIEW,7,119,162,90
+END
+
+IDD_TRIGGERVALUEDEFINEPANEVIEW DIALOGEX 0, 0, 39, 24
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "굴림", 400, 0, 0x81
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_TABSTOP,0,0,39,24
+END
+
+IDD_TRIGGERVALUEDLG DIALOGEX 0, 0, 174, 122
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Trigger Value"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,71,102,45,13
+    PUSHBUTTON      "Cancel",IDCANCEL,122,102,45,13
+    GROUPBOX        "",IDC_STATIC,7,7,159,88
+    LTEXT           "Value Name",IDC_STATIC,14,32,43,9
+    LTEXT           "Default Value",IDC_STATIC,13,64,47,9
+    EDITTEXT        IDC_EDIT1,22,44,134,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,22,76,134,12,ES_AUTOHSCROLL
+    LTEXT           "Value Type",IDC_STATIC,14,18,40,8
+    COMBOBOX        IDC_COMBO1,57,16,71,45,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PROFILEDLG DIALOGEX 0, 0, 351, 247
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Profile Setting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,41,20,244,154,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON1,288,20,15,12
+    PUSHBUTTON      "",IDC_BUTTON2,305,20,15,12
+    PUSHBUTTON      "",IDC_BUTTON9,322,20,15,12
+    EDITTEXT        IDC_EDIT1,78,48,236,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "...",IDC_BUTTON3,317,48,18,12
+    EDITTEXT        IDC_EDIT4,78,64,236,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "...",IDC_BUTTON4,317,64,18,12
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,22,107,308,103
+    PUSHBUTTON      "Close",IDOK,300,227,44,12
+    GROUPBOX        "",IDC_STATIC,7,7,337,216
+    LTEXT           "Profile",IDC_STATIC,15,22,24,9
+    GROUPBOX        "",IDC_STATIC,13,36,325,181
+    LTEXT           "Local Path",IDC_STATIC,23,50,40,8
+    LTEXT           "Nation",IDC_STATIC,23,95,22,8
+    LTEXT           "Resource Path",IDC_STATIC,23,65,49,8
+    EDITTEXT        IDC_EDIT6,78,80,236,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "...",IDC_BUTTON5,317,80,18,12
+    LTEXT           "LoginInfo Path",IDC_STATIC,23,81,49,8
+END
+
+IDD_NEWPROFILEDLG DIALOGEX 0, 0, 259, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Profile"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,18,245,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,159,36,45,12
+    PUSHBUTTON      "Cancel",IDCANCEL,207,36,45,12
+    LTEXT           "Enter New Profile",IDC_STATIC,7,7,64,8
+END
+
+IDD_NATIONDLG DIALOGEX 0, 0, 300, 98
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Nation Proerties"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,62,18,225,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,62,34,208,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,272,34,15,12
+    EDITTEXT        IDC_EDIT5,62,50,208,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON2,272,50,15,12
+    DEFPUSHBUTTON   "OK",IDOK,198,80,46,12
+    PUSHBUTTON      "Cancel",IDCANCEL,248,80,45,12
+    GROUPBOX        "",IDC_STATIC,7,7,286,66
+    LTEXT           "Nation Name",IDC_STATIC,14,20,45,8
+    LTEXT           "MapData",IDC_STATIC,14,36,40,8
+    LTEXT           "Resource",IDC_STATIC,15,52,35,8
+END
+
+IDD_CONNECTTODLG DIALOGEX 0, 0, 244, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Connect Nation"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_COMBO1,54,16,183,109,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,142,44,45,12
+    PUSHBUTTON      "Cancel",IDCANCEL,192,44,45,12
+    LTEXT           "Connect to",IDC_STATIC,9,17,43,8
+END
+
+IDD_LAYERDECALVIEW DIALOGEX 0, 0, 9, 9
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_CREATEPROPPROPERTYDLG DIALOGEX 0, 0, 483, 247
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Prop Property Wizard"
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_STATIC,0,219,483,25
+    DEFPUSHBUTTON   "Next >",IDC_NEXT,346,227,65,13
+    PUSHBUTTON      "< Back",IDC_BACK,276,227,65,13
+    PUSHBUTTON      "Cancel",IDOK,430,227,50,13
+    CONTROL         229,IDC_STATIC,"Static",SS_BITMAP,0,0,124,220
+END
+
+IDD_PROPEDIT_SELEDITTYPE DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    GROUPBOX        " Prop Type",IDC_STATIC,18,22,307,81
+    CONTROL         "Create New Prop Type",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,37,43,209,10
+    CONTROL         "Modify Prop Type",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,37,58,209,10
+    CONTROL         "Delete Prop Type",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,37,74,209,10
+    GROUPBOX        " Prop Parameter",IDC_STATIC,18,112,307,81
+    CONTROL         "Create New Prop Parameter",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,37,134,209,10
+    CONTROL         "Modify Prop Parameter",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,37,149,209,10
+    CONTROL         "Delete Prop Parameter",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,37,165,209,10
+END
+
+IDD_PROPEDIT_SELECTTYPE DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,14,319,195
+END
+
+IDD_PROPEDIT_CREATEPARAMETER DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    GROUPBOX        " Common Variable ",IDC_STATIC,7,7,285,62
+    LTEXT           "Parameter Name",IDC_STATIC,21,21,57,8
+    LTEXT           "Description",IDC_STATIC,22,36,55,8
+    LTEXT           "Value Type",IDC_STATIC,22,52,56,8
+    EDITTEXT        IDC_EDIT1,81,19,202,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,81,35,202,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,81,50,116,120,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        " Additional Variable ",IDC_STATIC_ADDITIONAL,7,71,286,43
+    LTEXT           "Data :",IDC_STATIC_DATA,20,88,23,8
+    EDITTEXT        IDC_EDIT2,41,87,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,137,87,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,43,87,231,12,ES_AUTOHSCROLL
+    LTEXT           "Min :",IDC_STATIC_MIN,18,88,20,9
+    LTEXT           "Max :",IDC_STATIC_MAX,112,89,23,8
+    GROUPBOX        " Preview ",IDC_STATIC_PREVIEW,7,119,162,90
+END
+
+IDD_PROPEDIT_SELECTPARAMETER DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,14,319,195
+END
+
+IDD_PROPEDIT_FINISH DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CONTROL         "Export Prop Property Header",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,23,21,121,8
+    LTEXT           "Location",IDC_STATIC,38,41,30,9
+    EDITTEXT        IDC_EDIT1,74,40,225,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,302,40,21,12
+END
+
+IDD_PROPEDIT_CREATETYPE DIALOGEX 0, 0, 347, 210
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        " Common Variable ",IDC_STATIC,15,12,316,56
+    LTEXT           "Class Name",IDC_STATIC,31,30,49,9
+    EDITTEXT        IDC_EDIT1,85,28,229,12,ES_AUTOHSCROLL
+    LTEXT           "Class ID",IDC_STATIC,31,47,47,9
+    COMBOBOX        IDC_COMBO1,85,44,73,128,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,WS_EX_RTLREADING
+END
+
+IDD_EXPORTPORPINFODLG DIALOGEX 0, 0, 283, 65
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Export PropInfo to 3ds max script file"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,180,46,45,12
+    PUSHBUTTON      "Cancel",IDCANCEL,231,46,45,12
+    LTEXT           "Max Data Folder",IDC_STATIC,7,7,61,8
+    EDITTEXT        IDC_EDIT1,7,18,251,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,261,17,14,13
+END
+
+IDD_GRIDLISTPANEVIEW DIALOGEX 0, 0, 62, 75
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | LVS_ALIGNLEFT | WS_TABSTOP,7,7,48,61
+END
+
+IDD_TRIGGEROPERATORDLG DIALOGEX 0, 0, 192, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Operator Properties"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,81,59,45,13
+    PUSHBUTTON      "Cancel",IDCANCEL,136,59,45,13
+    LTEXT           "Operator Random",IDC_STATIC_SLIDER,7,3,178,28,NOT WS_VISIBLE
+END
+
+IDD_GRIDDESCRIPTIONPANEVIEW DIALOGEX 0, 0, 6, 6
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_RICHEDIT21,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_TABSTOP,0,0,6,6
+END
+
+IDD_PRELOGO DIALOGEX 0, 0, 287, 154
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Process Description",IDC_STATIC_DESC,"Static",SS_SIMPLE | WS_GROUP,1,143,284,9,WS_EX_TRANSPARENT
+END
+
+IDD_DECALLISTPANEVIEW DIALOGEX 0, 0, 29, 60
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_TABSTOP,8,6,14,47
+END
+
+IDD_IGNOREPROPFOLDERDLG DIALOGEX 0, 0, 29, 33
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "EtWorldPainter.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "EtWorldPainter.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_BRUSHPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 109
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_RENDERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 23
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 19
+    END
+
+    IDD_LAYERPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_LAYERPREVVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_CONNECT_SETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_ADMIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDD_GRIDINFOPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 16
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 14
+    END
+
+    IDD_LOGINLISTPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 65
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 85
+    END
+
+    IDD_DUMMYVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_BRUSHRENDERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 27
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 25
+    END
+
+    IDD_CAMERAPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 114
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+
+    IDD_LAYERHEIGHTVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 102
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_SECTORINFOPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 82
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 90
+    END
+
+    IDD_BLOCKGROUPPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 52
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_RANDOMDUNGEONRENDERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 24
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 22
+    END
+
+    IDD_RANDOMDUNGEONDEFAULTPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 20
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 16
+    END
+
+    IDD_PROPRENDERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 5
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 6
+    END
+
+    IDD_SKINMANAGERPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 23
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 22
+    END
+
+    IDD_FILTERPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 130
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 81
+    END
+
+    IDD_IMAGEPREVDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        VERTGUIDE, 113
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_TEXTUREPREV_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_PORPPOOLPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 16
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 23
+    END
+
+    IDD_PROPPOOLVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_PROPPOOLPROPERTIESVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_PROPPROPERTIESPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_CREATEGRID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_DELETEGRID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_SKINPREVDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_ENVIPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_CREATEENVIDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_ENVIBASEPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_EVENTRENDERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_EVENTAREAPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 20
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 15
+    END
+
+    IDD_EVENTPROPERTIESPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 9
+    END
+
+    IDD_SOUNDRENDERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 1
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 3
+    END
+
+    IDD_SOUNDPREVDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_SOUNDLISTPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 70
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_SOUNDPROPERTYPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 87
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_PROPERTIESDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+
+    IDD_LAYERGRASSVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 1
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 3
+    END
+
+    IDD_NAVIRENDERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_NAVIPROPERTYPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_RENDEROPTIONPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_TRIGGERRENDERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_PROPLISTPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 19
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_TRIGGERPROPERTIESPANEVIEW, DIALOG
+    BEGIN
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 5
+    END
+
+    IDD_TRIGGERSELECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_PARAMINPUTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 81
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 7
+    END
+
+    IDD_MOVEGRIDDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_TRIGGERATTRIBUTEPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_MAKEMINIMAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_WATERRENDERVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_WATERPROPPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_CREATEEVENTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 476
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_EVENTEDIT_CREATEMODIFY_EVENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+        HORZGUIDE, 47
+    END
+
+    IDD_EVENTEDIT_SELECTEVENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_EVENTEDIT_FINISH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_EVENTEDIT_SELECTPARAMETER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_EVENTEDIT_CREATEMODIFY_PARAMETER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_TRIGGERVALUEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_PROFILEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 344
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_NEWPROFILEDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_NATIONDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_CONNECTTODLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_LAYERDECALVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 2
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 2
+    END
+
+    IDD_CREATEPROPPROPERTYDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 476
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_PROPEDIT_SELEDITTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_PROPEDIT_SELECTTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_PROPEDIT_CREATEPARAMETER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_PROPEDIT_SELECTPARAMETER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_PROPEDIT_FINISH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_PROPEDIT_CREATETYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_EXPORTPORPINFODLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_GRIDLISTPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 55
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_TRIGGEROPERATORDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_PRELOGO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DECALLISTPANEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 22
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_IGNOREPROPFOLDERDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 22
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 26
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DDS
+//
+
+IDR_DEFAULTDDS          DDS                     "res\\DefaultLayerTexture.dds"
+IDR_DUMMY_MSH           DDS                     "res\\DummyActor.msh"
+IDR_DUMMY_SKN           DDS                     "res\\DummyActor.skn"
+IDR_DUMMY_ANI           DDS                     "res\\DummyActor.ani"
+IDR_GRASSDDS            DDS                     "res\\GrassTexture.dds"
+IDR_LIGHT_SKN           DDS                     "res\\Light.skn"
+IDR_LIGHT_DDS           DDS                     "res\\__Light.dds"
+IDR_LIGHT_MSH           DDS                     "res\\__Light.msh"
+IDR_CAMERA_SKN          DDS                     "res\\Camera.skn"
+IDR_CAMERA_MSH          DDS                     "res\\Camera.msh"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MAKEMINIMAP DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 4, 0
+0x3231, 0x0038, 
+    IDC_COMBO1, 0x403, 4, 0
+0x3532, 0x0036, 
+    IDC_COMBO1, 0x403, 4, 0
+0x3135, 0x0032, 
+    IDC_COMBO1, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x3032, 0x3834, "\000" 
+    IDC_COMBO3, 0x403, 4, 0
+0x3231, 0x0038, 
+    IDC_COMBO3, 0x403, 4, 0
+0x3532, 0x0036, 
+    IDC_COMBO3, 0x403, 4, 0
+0x3135, 0x0032, 
+    IDC_COMBO3, 0x403, 5, 0
+0x3031, 0x3432, "\000" 
+    IDC_COMBO3, 0x403, 5, 0
+0x3032, 0x3834, "\000" 
+    0
+END
+
+IDD_TRIGGERVALUEDLG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 8, 0
+0x6e49, 0x6574, 0x6567, 0x0072, 
+    IDC_COMBO1, 0x403, 6, 0
+0x6c46, 0x616f, 0x0074, 
+    IDC_COMBO1, 0x403, 7, 0
+0x7453, 0x6972, 0x676e, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE를 초기화할 수 없습니다. OLE 라이브러리 버전이 올바른지 확인하십시오."
+    ID_DK_BRUSHVIEW_1       "Change Layer 1"
+    ID_DK_BRUSHVIEW_2       "Change Layer 2"
+    ID_DK_BRUSHVIEW_3       "Change Layer 3"
+    ID_DK_BRUSHVIEW_4       "Change Layer 4"
+    ID_DK_BRUSHVIEW_H       "Change Layer Edit Height"
+    ID_DK_BRUSHVIEW_D       "Change Layer Edit Decal"
+    ID_INDICATOR_DESC       "DESC"
+    ID_INDICATOR_PROG       "PROG"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "EtWorldPainter\n\nEtWorldPainter\nEtWorldPainter Files (*.Tdmap)\n.Tdmap\nEtWorldPainter.Document\nEtWorldPainter.Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "EtWorldPainter"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "새 문서를 만듭니다.\n새로 만들기"
+    ID_FILE_OPEN            "기존 문서를 엽니다.\n열기"
+    ID_FILE_CLOSE           "활성 문서를 닫습니다.\n닫기"
+    ID_FILE_SAVE            "활성 문서를 저장합니다.\n저장"
+    ID_FILE_SAVE_AS         "활성 문서를 새 이름으로 저장합니다.\n다른 이름으로 저장"
+    ID_FILE_PAGE_SETUP      "인쇄 옵션을 변경합니다.\n페이지 설정"
+    ID_FILE_PRINT_SETUP     "프린터 및 인쇄 옵션을 변경합니다.\n인쇄 설정"
+    ID_FILE_PRINT           "활성 문서를 인쇄합니다.\n인쇄"
+    ID_FILE_PRINT_PREVIEW   "전체 페이지를 표시합니다.\n인쇄 미리 보기"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보, 버전 번호, 저작권을 표시합니다.\n정보"
+    ID_APP_EXIT             "문서를 저장할지를 묻고 응용 프로그램을 끝냅니다.\n끝내기"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE2       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE3       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE4       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE5       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE6       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE7       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE8       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE9       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE10      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE11      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE12      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE13      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE14      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE15      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE16      "현재 문서를 엽니다."
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다.\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다.\n이전 창"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "활성 창을 여러 개의 창으로 분할합니다.\n분할"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "선택 영역을 지웁니다.\n지우기"
+    ID_EDIT_CLEAR_ALL       "모두 지웁니다.\n모두 지우기"
+    ID_EDIT_COPY            "선택 영역을 복사하여 클립보드에 넣습니다.\n복사"
+    ID_EDIT_CUT             "선택 영역을 잘라내어 클립보드에 넣습니다.\n잘라내기"
+    ID_EDIT_FIND            "지정한 텍스트를 찾습니다.\n찾기"
+    ID_EDIT_PASTE           "클립보드 내용을 삽입합니다.\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막 작업을 반복합니다.\n반복"
+    ID_EDIT_REPLACE         "특정 텍스트를 다른 텍스트로 바꿉니다.\n바꾸기"
+    ID_EDIT_SELECT_ALL      "전체 문서를 선택합니다.\n모두 선택"
+    ID_EDIT_UNDO            "마지막 작업 실행을 취소합니다.\n실행 취소"
+    ID_EDIT_REDO            "이전에 실행 취소된 작업을 다시 실행합니다.\n다시 실행"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "도구 모음을 표시하거나 숨깁니다.\n도구 모음 설정/해제"
+    ID_VIEW_STATUS_BAR      "상태 표시줄을 표시하거나 숨깁니다.\n상태 표시줄 설정/해제"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창 크기를 변경합니다."
+    AFX_IDS_SCMOVE          "창 위치를 변경합니다."
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 축소합니다."
+    AFX_IDS_SCMAXIMIZE      "창을 전체 화면 크기로 확대합니다."
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다."
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다."
+    AFX_IDS_SCCLOSE         "문서를 저장할 것인지 확인하고 활성 창을 닫습니다."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 보통 크기로 복원합니다."
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다."
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "인쇄 미리 보기 모드를 닫습니다.\n미리 보기 취소"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TEXTUREADD           "Add Tile"
+    ID_TEXTUREREMOVE        "Remove Tile"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_TEXTUREREFRESH       "Refresh"
+    ID_TEXTUREPREVIEW       "Show Preview"
+    ID_TEXTURESIZE          "Image Size"
+    ID_UNDO                 "Undo"
+    ID_REDO                 "Redo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SKINADD              "Add Skin"
+    ID_SKINREMOVE           "Remove Skin"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SKINREFRESH          "Refresh"
+    ID_SKINPREVIEW          "Show Preview"
+    ID_SKINMODE             "Mode"
+    ID_SKINSIZE             "Backbuffer Size"
+    ID_POOL_EMPTY           "Empty"
+    ID_POOL_SAVE            "Save"
+    ID_POOL_LOADLIST        "Define List"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SOUNDADD             "Add Sound"
+    ID_SOUNDREMOVE          "Remove Sound"
+    ID_SOUNDMODE            "View Format"
+    ID_SOUNDREFRESH         "Refresh"
+    ID_ENVI_RELOAD          "Reload Environment"
+    ID_ENVI_DELETE          "Delete Environment"
+    ID_GRASS_1              "1"
+    ID_GRASS_2              "2"
+    ID_GRASS_3              "3"
+    ID_GRASS_4              "4"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ENVI_NEW             "Create Environment"
+    ID_ENVI_SAVEAS          "Save Environment"
+    ID_ENVI_LOADLIST        "Environment List"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ENVI_BAKELIGHTMAP    "Bake Lightmap"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ATTR_MAKENAVI        "Generation Navigation Mesh"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_ATTR_GEN_ATT4        "Paint Prop Attribute"
+    ID_ATTR_CLEAR_ATT4      "Clear Prop Attribute"
+    ID_RELOAD               "텍스처를 리로드합니다."
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\EtWorldPainter.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "afxres.rc"         // 표준 구성 요소입니다.
+#include "afxprint.rc"       // 인쇄 미리 보기 리소스
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
